@@ -51,11 +51,14 @@ const router = createBrowserRouter([
       {
         path: 'centers',
         element: <CentersPage />,
-      },
-      {
-        path: '/centers/:id',
-        element: <CenterDetail />,
-      },
+      
+        children: [
+          {
+              path: '/centers/:id',
+              element: <CenterDetail/>
+          }
+      ]
+    }
     ]
   }
 ]);

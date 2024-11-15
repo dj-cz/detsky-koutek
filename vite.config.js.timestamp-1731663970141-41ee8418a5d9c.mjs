@@ -1,0 +1,19 @@
+// vite.config.js
+import { defineConfig } from "file:///D:/Dropbox/LEARNING/IT/Czechitas/react1/lesson_8/detsky-koutek/node_modules/vite/dist/node/index.js";
+import react from "file:///D:/Dropbox/LEARNING/IT/Czechitas/react1/lesson_8/detsky-koutek/node_modules/@vitejs/plugin-react/dist/index.mjs";
+var vite_config_default = defineConfig({
+  root: "./src",
+  publicDir: "../public",
+  server: {
+    hmr: false
+  },
+  build: {
+    outDir: "../dist",
+    modulePreload: false
+  },
+  plugins: [react()]
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJEOlxcXFxEcm9wYm94XFxcXExFQVJOSU5HXFxcXElUXFxcXEN6ZWNoaXRhc1xcXFxyZWFjdDFcXFxcbGVzc29uXzhcXFxcZGV0c2t5LWtvdXRla1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiRDpcXFxcRHJvcGJveFxcXFxMRUFSTklOR1xcXFxJVFxcXFxDemVjaGl0YXNcXFxccmVhY3QxXFxcXGxlc3Nvbl84XFxcXGRldHNreS1rb3V0ZWtcXFxcdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL0Q6L0Ryb3Bib3gvTEVBUk5JTkcvSVQvQ3plY2hpdGFzL3JlYWN0MS9sZXNzb25fOC9kZXRza3kta291dGVrL3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSc7XG5pbXBvcnQgcmVhY3QgZnJvbSAnQHZpdGVqcy9wbHVnaW4tcmVhY3QnO1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICByb290OiAnLi9zcmMnLFxuICBwdWJsaWNEaXI6ICcuLi9wdWJsaWMnLFxuICBzZXJ2ZXI6IHtcbiAgICBobXI6IGZhbHNlLFxuICB9LFxuICBidWlsZDoge1xuICAgIG91dERpcjogJy4uL2Rpc3QnLFxuICAgIG1vZHVsZVByZWxvYWQ6IGZhbHNlLFxuICB9LFxuICBwbHVnaW5zOiBbcmVhY3QoKV0sXG59KTtcbiJdLAogICJtYXBwaW5ncyI6ICI7QUFBNFgsU0FBUyxvQkFBb0I7QUFDelosT0FBTyxXQUFXO0FBRWxCLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLE1BQU07QUFBQSxFQUNOLFdBQVc7QUFBQSxFQUNYLFFBQVE7QUFBQSxJQUNOLEtBQUs7QUFBQSxFQUNQO0FBQUEsRUFDQSxPQUFPO0FBQUEsSUFDTCxRQUFRO0FBQUEsSUFDUixlQUFlO0FBQUEsRUFDakI7QUFBQSxFQUNBLFNBQVMsQ0FBQyxNQUFNLENBQUM7QUFDbkIsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K
